@@ -29,12 +29,12 @@ private BCryptPasswordEncoder bCryptPasswordEncoder;
 		try {
 		// TODO Auto-generated method stub
 	User user = new User();
-	user.setFirstName("Praveen");
-	user.setLastName("Rai");
-	user.setEmail("praveen@gmail.com");
-	user.setUsername("praveen03");
+	user.setFirstName("sourav");
+	user.setLastName("singh");
+	user.setEmail("sourav@gmail.com");
+	user.setUsername("sourav001");
 	user.setPassword(this.bCryptPasswordEncoder.encode("abc"));
-	user.setMobileNo("8655003532");
+	user.setMobileNo("955094444");
 	Role role1 = new Role();
 	role1.setRoleId(44);
 	role1.setRoleName("ADMIN");
